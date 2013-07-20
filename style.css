@@ -1,0 +1,117 @@
+@font-face {
+	font-family: 'icomoon';
+	src:url('fonts/icomoon.eot');
+	src:url('fonts/icomoon.eot?#iefix') format('embedded-opentype'),
+		url('fonts/icomoon.woff') format('woff'),
+		url('fonts/icomoon.ttf') format('truetype'),
+		url('fonts/icomoon.svg#icomoon') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+
+/* Use the following CSS code if you want to use data attributes for inserting your icons */
+[data-icon]:before {
+	font-family: 'icomoon';
+	content: attr(data-icon);
+	speak: none;
+	font-weight: normal;
+	font-variant: normal;
+	text-transform: none;
+	line-height: 1;
+	-webkit-font-smoothing: antialiased;
+}
+
+/* Use the following CSS code if you want to have a class per icon */
+/*
+Instead of a list of all class selectors,
+you can use the generic selector below, but it's slower:
+[class*="icon-"] {
+*/
+.icon-columns, .icon-list, .icon-icons, .icon-chevron-left, .icon-chevron-right, .icon-folder, .icon-cancel, .icon-search, .icon-file-alt, .icon-group, .icon-calendar, .icon-star-empty, .icon-star, .icon-clock, .icon-dollar, .icon-cancel-2, .icon-location, .icon-facebook, .icon-twitter, .icon-linkedin, .icon-instagram, .icon-radio-checked, .icon-radio-unchecked, .icon-list-2, .icon-x, .icon-x-altx-alt {
+	font-family: 'icomoon';
+	speak: none;
+	font-style: normal;
+	font-weight: normal;
+	font-variant: normal;
+	text-transform: none;
+	line-height: 1;
+	-webkit-font-smoothing: antialiased;
+}
+.icon-columns:before {
+	content: "\e002";
+}
+.icon-list:before {
+	content: "\e003";
+}
+.icon-icons:before {
+	content: "\e004";
+}
+.icon-chevron-left:before {
+	content: "\f053";
+}
+.icon-chevron-right:before {
+	content: "\f054";
+}
+.icon-folder:before {
+	content: "\e000";
+}
+.icon-cancel:before {
+	content: "\e001";
+}
+.icon-search:before {
+	content: "\f002";
+}
+.icon-file-alt:before {
+	content: "\f0f6";
+}
+.icon-group:before {
+	content: "\f0c0";
+}
+.icon-calendar:before {
+	content: "\f073";
+}
+.icon-star-empty:before {
+	content: "\f006";
+}
+.icon-star:before {
+	content: "\f005";
+}
+.icon-clock:before {
+	content: "\e005";
+}
+.icon-dollar:before {
+	content: "\f155";
+}
+.icon-cancel-2:before {
+	content: "\e006";
+}
+.icon-location:before {
+	content: "\e007";
+}
+.icon-facebook:before {
+	content: "\e008";
+}
+.icon-twitter:before {
+	content: "\e009";
+}
+.icon-linkedin:before {
+	content: "\e00a";
+}
+.icon-instagram:before {
+	content: "\e00b";
+}
+.icon-radio-checked:before {
+	content: "\e00c";
+}
+.icon-radio-unchecked:before {
+	content: "\e00d";
+}
+.icon-list-2:before {
+	content: "\e00e";
+}
+.icon-x:before {
+	content: "\e00f";
+}
+.icon-x-altx-alt:before {
+	content: "\e010";
+}
